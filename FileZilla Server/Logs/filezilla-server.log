@@ -1,0 +1,1399 @@
+2023-04-08T17:16:11.669Z == ===== New logging started =====
+2023-04-08T17:16:11.672Z == Setting up TLS for the FTP Server
+2023-04-08T17:16:11.672Z == Generating self-signed certificate.
+2023-04-08T17:16:11.686Z == SHA1 certificate fingerprint: 69:a2:b8:31:31:9c:d0:67:9c:0b:57:6f:fd:b2:4f:fc:06:03:43:74
+2023-04-08T17:16:11.686Z == SHA256 certificate fingerprint: f7:dd:d8:c0:18:fe:73:c5:fc:5e:d1:5a:7d:ee:b3:3b:de:72:d3:26:d6:b2:13:26:cf:ba:05:48:18:e6:84:1e
+2023-04-08T17:16:11.686Z == Setting up TLS for the Administration Server
+2023-04-08T17:16:11.686Z == Generating self-signed certificate.
+2023-04-08T17:16:11.704Z == SHA256 certificate fingerprint: 40:6b:81:78:6e:a5:27:c0:47:08:60:1e:6d:3a:19:ac:42:09:1f:d5:36:5a:2a:89:93:29:a0:cc:07:aa:dc:86
+2023-04-08T17:16:11.704Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T17:16:11.704Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T17:16:11.712Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T17:16:11.712Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T17:16:11.712Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T17:16:49.005Z == ===== New logging started =====
+2023-04-08T17:16:49.005Z == Setting up TLS for the FTP Server
+2023-04-08T17:16:49.005Z == SHA1 certificate fingerprint: 69:a2:b8:31:31:9c:d0:67:9c:0b:57:6f:fd:b2:4f:fc:06:03:43:74
+2023-04-08T17:16:49.005Z == SHA256 certificate fingerprint: f7:dd:d8:c0:18:fe:73:c5:fc:5e:d1:5a:7d:ee:b3:3b:de:72:d3:26:d6:b2:13:26:cf:ba:05:48:18:e6:84:1e
+2023-04-08T17:16:49.005Z == Setting up TLS for the Administration Server
+2023-04-08T17:16:49.013Z == SHA256 certificate fingerprint: 40:6b:81:78:6e:a5:27:c0:47:08:60:1e:6d:3a:19:ac:42:09:1f:d5:36:5a:2a:89:93:29:a0:cc:07:aa:dc:86
+2023-04-08T17:16:49.017Z == [FTP Server] Listening on 0.0.0.0:21 (tls_mode = 0).
+2023-04-08T17:16:49.017Z == [FTP Server] Listening on [::]:21 (tls_mode = 0).
+2023-04-08T17:16:49.017Z == [Administration Server] Listening on 127.0.0.1:14148 (tls_mode = 1).
+2023-04-08T17:16:49.018Z == [Administration Server] Listening on [::1]:14148 (tls_mode = 1).
+2023-04-08T17:19:10.969Z == [Administration Server] Administration client with ID 1 connected from 127.0.0.1:60348
+2023-04-08T17:26:42.231Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:26:42.231Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:26:42.233Z !! [Administration Server/RMP Session, id: 2] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:26:42.233Z !! [Administration Server] Administration client with ID 2 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:26:42.233Z !! [Administration Server] Session 2 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:27:07.340Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:27:07.340Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:27:07.340Z !! [Administration Server/RMP Session, id: 3] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:27:07.340Z !! [Administration Server] Administration client with ID 3 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:27:07.340Z !! [Administration Server] Session 3 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:27:11.030Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:27:11.030Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:27:11.030Z !! [Administration Server/RMP Session, id: 4] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:27:11.030Z !! [Administration Server] Administration client with ID 4 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:27:11.030Z !! [Administration Server] Session 4 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:27:36.154Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:27:36.154Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:27:36.154Z !! [Administration Server/RMP Session, id: 5] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:27:36.154Z !! [Administration Server] Administration client with ID 5 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:27:36.154Z !! [Administration Server] Session 5 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:30:37.857Z == [Administration Server] Administration client with ID 1 disconnected without error
+2023-04-08T17:30:37.857Z == [Administration Server] Session 1 ended gracefully.
+2023-04-08T17:31:08.803Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:31:08.803Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:31:08.803Z !! [Administration Server/RMP Session, id: 6] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:31:08.803Z !! [Administration Server] Administration client with ID 6 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:31:08.803Z !! [Administration Server] Session 6 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:31:33.923Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:31:33.923Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:31:33.923Z !! [Administration Server/RMP Session, id: 7] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:31:33.923Z !! [Administration Server] Administration client with ID 7 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:31:33.923Z !! [Administration Server] Session 7 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:32:42.554Z == [Administration Server] Administration client with ID 8 connected from 127.0.0.1:60436
+2023-04-08T17:34:25.560Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:34:25.560Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:34:25.560Z !! [Administration Server/RMP Session, id: 9] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:34:25.560Z !! [Administration Server] Administration client with ID 9 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:34:25.560Z !! [Administration Server] Session 9 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:34:42.961Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:34:42.961Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:34:42.961Z !! [Administration Server/RMP Session, id: 10] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:34:42.961Z !! [Administration Server] Administration client with ID 10 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:34:42.961Z !! [Administration Server] Session 10 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:34:50.670Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:34:50.670Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:34:50.670Z !! [Administration Server/RMP Session, id: 11] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:34:50.670Z !! [Administration Server] Administration client with ID 11 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:34:50.670Z !! [Administration Server] Session 11 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:35:08.078Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:35:08.078Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:35:08.078Z !! [Administration Server/RMP Session, id: 12] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:35:08.078Z !! [Administration Server] Administration client with ID 12 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:35:08.078Z !! [Administration Server] Session 12 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:35:33.194Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:35:33.194Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:35:33.194Z !! [Administration Server/RMP Session, id: 13] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:35:33.194Z !! [Administration Server] Administration client with ID 13 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:35:33.196Z !! [Administration Server] Session 13 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:35:58.311Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:35:58.311Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:35:58.311Z !! [Administration Server/RMP Session, id: 14] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:35:58.311Z !! [Administration Server] Administration client with ID 14 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:35:58.311Z !! [Administration Server] Session 14 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:36:29.401Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:36:29.401Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:36:29.401Z !! [Administration Server/RMP Session, id: 15] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:36:29.401Z !! [Administration Server] Administration client with ID 15 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:36:29.401Z !! [Administration Server] Session 15 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:36:54.524Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T17:36:54.524Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T17:36:54.524Z !! [Administration Server/RMP Session, id: 16] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:36:54.524Z !! [Administration Server] Administration client with ID 16 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T17:36:54.524Z !! [Administration Server] Session 16 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T17:57:52.483Z == [Administration Server] Administration client with ID 8 disconnected without error
+2023-04-08T17:57:52.483Z == [Administration Server] Session 8 ended gracefully.
+2023-04-08T18:00:23.233Z == [Administration Server] Administration client with ID 17 connected from 127.0.0.1:60631
+2023-04-08T18:02:03.352Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T18:02:03.352Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T18:02:03.352Z !! [Administration Server/RMP Session, id: 18] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:02:03.352Z !! [Administration Server] Administration client with ID 18 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T18:02:03.352Z !! [Administration Server] Session 18 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:02:28.476Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T18:02:28.476Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T18:02:28.476Z !! [Administration Server/RMP Session, id: 19] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:02:28.476Z !! [Administration Server] Administration client with ID 19 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T18:02:28.476Z !! [Administration Server] Session 19 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:03:43.162Z == [Administration Server] Generating self-signed certificate.
+2023-04-08T18:03:43.162Z !! [Administration Server] Failed generating self-signed certificate.
+2023-04-08T18:03:51.840Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:03:51.840Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:03:51.949Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:03:51.949Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:03:51.949Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:03:59.009Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:03:59.012Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:03:59.114Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:03:59.114Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:03:59.114Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:04:21.597Z == [Administration Server] Administration client with ID 17 disconnected without error
+2023-04-08T18:04:21.597Z == [Administration Server] Session 17 ended gracefully.
+2023-04-08T18:04:25.145Z == [Administration Server] Administration client with ID 20 connected from 127.0.0.1:60650
+2023-04-08T18:05:28.292Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T18:05:28.292Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T18:05:28.292Z !! [Administration Server/RMP Session, id: 21] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:05:28.292Z !! [Administration Server] Administration client with ID 21 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T18:05:28.292Z !! [Administration Server] Session 21 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:05:53.408Z !! [Administration Server] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T18:05:53.408Z == [Administration Server] Client did not properly shut down TLS connection
+2023-04-08T18:05:53.408Z !! [Administration Server/RMP Session, id: 22] Failed securing connection. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:05:53.408Z !! [Administration Server] Administration client with ID 22 disconnected with error ECONNABORTED - Connection aborted
+2023-04-08T18:05:53.408Z !! [Administration Server] Session 22 ended with error. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:17:35.026Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:17:35.026Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:17:35.146Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:17:35.146Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:17:35.146Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:17:38.615Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:17:38.615Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:17:38.721Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:17:38.721Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:17:38.721Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:19:15.880Z << [FTP Session 23 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:19:15.880Z << [FTP Session 23 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:19:15.880Z >> [FTP Session 23 192.168.231.1] AUTH TLS
+2023-04-08T18:19:15.892Z << [FTP Session 23 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:19:25.579Z >> [FTP Session 23 192.168.231.1] USER user
+2023-04-08T18:19:25.579Z << [FTP Session 23 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:19:25.579Z >> [FTP Session 23 192.168.231.1] PASS ****
+2023-04-08T18:19:25.737Z << [FTP Session 23 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:19:25.737Z !! [FTP Session 23 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:19:25.737Z == [FTP Session 23 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:19:25.737Z !! [FTP Session 23 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:20:40.548Z << [FTP Session 24 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:20:40.548Z << [FTP Session 24 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:20:40.548Z >> [FTP Session 24 192.168.231.1] AUTH TLS
+2023-04-08T18:20:40.563Z << [FTP Session 24 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:20:40.626Z >> [FTP Session 24 192.168.231.1] USER user
+2023-04-08T18:20:40.626Z << [FTP Session 24 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:20:40.626Z >> [FTP Session 24 192.168.231.1] PASS ****
+2023-04-08T18:20:40.846Z << [FTP Session 24 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:20:40.846Z !! [FTP Session 24 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:20:40.846Z == [FTP Session 24 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:20:40.846Z !! [FTP Session 24 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:20:45.849Z << [FTP Session 25 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:20:45.849Z << [FTP Session 25 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:20:45.854Z << [FTP Session 26 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:20:45.854Z << [FTP Session 26 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:20:45.854Z >> [FTP Session 25 192.168.231.1] AUTH TLS
+2023-04-08T18:20:45.855Z << [FTP Session 25 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:20:45.855Z >> [FTP Session 26 192.168.231.1] AUTH TLS
+2023-04-08T18:20:45.855Z << [FTP Session 26 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:20:45.897Z >> [FTP Session 25 192.168.231.1] USER user
+2023-04-08T18:20:45.897Z << [FTP Session 25 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:20:45.899Z >> [FTP Session 25 192.168.231.1] PASS ****
+2023-04-08T18:20:46.087Z << [FTP Session 25 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:20:46.087Z >> [FTP Session 26 192.168.231.1] USER user
+2023-04-08T18:20:46.087Z << [FTP Session 26 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:20:46.087Z !! [FTP Session 25 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:20:46.087Z == [FTP Session 25 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:20:46.087Z !! [FTP Session 25 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:20:46.087Z >> [FTP Session 26 192.168.231.1] PASS ****
+2023-04-08T18:20:46.228Z << [FTP Session 26 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:20:46.228Z !! [FTP Session 26 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:20:46.228Z == [FTP Session 26 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:20:46.228Z !! [FTP Session 26 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:21:42.569Z << [FTP Session 27 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:21:42.569Z << [FTP Session 27 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:21:42.569Z >> [FTP Session 27 192.168.231.1] AUTH TLS
+2023-04-08T18:21:42.574Z << [FTP Session 27 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:21:42.600Z >> [FTP Session 27 192.168.231.1] USER user
+2023-04-08T18:21:42.600Z << [FTP Session 27 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:21:42.600Z >> [FTP Session 27 192.168.231.1] PASS ****
+2023-04-08T18:21:42.757Z << [FTP Session 27 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:21:42.757Z !! [FTP Session 27 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:21:42.757Z == [FTP Session 27 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:21:42.757Z !! [FTP Session 27 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:29:50.189Z == [Administration Server] Administration client with ID 20 disconnected without error
+2023-04-08T18:29:50.190Z == [Administration Server] Session 20 ended gracefully.
+2023-04-08T18:29:57.270Z == [Administration Server] Administration client with ID 28 connected from 127.0.0.1:61043
+2023-04-08T18:33:52.873Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:33:52.873Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:33:52.984Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:33:52.984Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:33:52.984Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:36:52.240Z << [FTP Session 29 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:36:52.240Z << [FTP Session 29 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:36:52.246Z >> [FTP Session 29 192.168.231.1] USER anonymous
+2023-04-08T18:36:52.246Z << [FTP Session 29 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:36:52.246Z >> [FTP Session 29 192.168.231.1] PASS ****
+2023-04-08T18:36:52.248Z << [FTP Session 29 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:36:52.248Z == [FTP Server] Session 29 ended gracefully.
+2023-04-08T18:36:52.359Z << [FTP Session 30 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:36:52.359Z << [FTP Session 30 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:36:52.359Z >> [FTP Session 30 192.168.231.1] USER anonymous
+2023-04-08T18:36:52.359Z << [FTP Session 30 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:36:52.363Z >> [FTP Session 30 192.168.231.1] PASS ****
+2023-04-08T18:36:52.363Z << [FTP Session 30 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:36:52.363Z == [FTP Server] Session 30 ended gracefully.
+2023-04-08T18:37:07.936Z << [FTP Session 31 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:37:07.936Z << [FTP Session 31 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:37:07.936Z >> [FTP Session 31 192.168.231.1] USER user
+2023-04-08T18:37:07.936Z << [FTP Session 31 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:37:07.936Z >> [FTP Session 31 192.168.231.1] PASS ****
+2023-04-08T18:37:08.073Z << [FTP Session 31 192.168.231.1 user] 230 Login successful.
+2023-04-08T18:37:08.073Z >> [FTP Session 31 192.168.231.1 user] opts utf8 on
+2023-04-08T18:37:08.073Z << [FTP Session 31 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T18:37:08.073Z >> [FTP Session 31 192.168.231.1 user] syst
+2023-04-08T18:37:08.073Z << [FTP Session 31 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-08T18:37:08.073Z >> [FTP Session 31 192.168.231.1 user] site help
+2023-04-08T18:37:08.073Z << [FTP Session 31 192.168.231.1 user] 500 Wrong command.
+2023-04-08T18:37:08.073Z >> [FTP Session 31 192.168.231.1 user] PWD
+2023-04-08T18:37:08.073Z << [FTP Session 31 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T18:37:08.366Z << [FTP Session 32 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:37:08.366Z << [FTP Session 32 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:37:08.366Z >> [FTP Session 32 192.168.231.1] USER user
+2023-04-08T18:37:08.366Z << [FTP Session 32 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:37:08.367Z >> [FTP Session 32 192.168.231.1] PASS ****
+2023-04-08T18:37:08.487Z << [FTP Session 32 192.168.231.1 user] 230 Login successful.
+2023-04-08T18:37:08.487Z >> [FTP Session 32 192.168.231.1 user] opts utf8 on
+2023-04-08T18:37:08.487Z << [FTP Session 32 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T18:37:08.487Z >> [FTP Session 32 192.168.231.1 user] syst
+2023-04-08T18:37:08.487Z << [FTP Session 32 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-08T18:37:08.487Z >> [FTP Session 32 192.168.231.1 user] site help
+2023-04-08T18:37:08.487Z << [FTP Session 32 192.168.231.1 user] 500 Wrong command.
+2023-04-08T18:37:08.487Z >> [FTP Session 32 192.168.231.1 user] PWD
+2023-04-08T18:37:08.487Z << [FTP Session 32 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T18:37:08.498Z >> [FTP Session 32 192.168.231.1 user] TYPE A
+2023-04-08T18:37:08.498Z << [FTP Session 32 192.168.231.1 user] 200 Type set to A
+2023-04-08T18:37:08.498Z >> [FTP Session 32 192.168.231.1 user] PASV
+2023-04-08T18:37:08.498Z << [FTP Session 32 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,238,159)
+2023-04-08T18:37:08.500Z >> [FTP Session 32 192.168.231.1 user] LIST
+2023-04-08T18:37:08.500Z << [FTP Session 32 192.168.231.1 user] 150 Starting data transfer.
+2023-04-08T18:37:08.501Z << [FTP Session 32 192.168.231.1 user] 226 Operation successful
+2023-04-08T18:37:08.721Z == [FTP Server] Session 31 ended gracefully.
+2023-04-08T18:42:17.496Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:42:17.496Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:42:17.610Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:42:17.610Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:42:17.610Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:43:01.317Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:43:01.317Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:43:01.426Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:43:01.426Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:43:01.426Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:43:12.035Z << [FTP Session 33 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:43:12.035Z << [FTP Session 33 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:43:12.035Z >> [FTP Session 33 192.168.231.1] USER anonymous
+2023-04-08T18:43:12.035Z << [FTP Session 33 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:43:12.037Z >> [FTP Session 33 192.168.231.1] PASS ****
+2023-04-08T18:43:12.037Z << [FTP Session 33 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:43:12.037Z == [FTP Server] Session 33 ended gracefully.
+2023-04-08T18:43:12.039Z << [FTP Session 34 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:43:12.039Z << [FTP Session 34 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:43:12.039Z >> [FTP Session 34 192.168.231.1] USER user
+2023-04-08T18:43:12.039Z << [FTP Session 34 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:43:12.040Z >> [FTP Session 34 192.168.231.1] PASS ****
+2023-04-08T18:43:12.167Z << [FTP Session 34 192.168.231.1 user] 230 Login successful.
+2023-04-08T18:43:12.182Z >> [FTP Session 34 192.168.231.1 user] opts utf8 on
+2023-04-08T18:43:12.182Z << [FTP Session 34 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T18:43:12.182Z >> [FTP Session 34 192.168.231.1 user] PWD
+2023-04-08T18:43:12.182Z << [FTP Session 34 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T18:43:12.196Z == [FTP Server] Session 34 ended gracefully.
+2023-04-08T18:45:49.512Z << [FTP Session 35 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:45:49.512Z << [FTP Session 35 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:45:49.512Z >> [FTP Session 35 192.168.231.1] AUTH TLS
+2023-04-08T18:45:49.512Z << [FTP Session 35 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:45:49.538Z >> [FTP Session 35 192.168.231.1] USER user
+2023-04-08T18:45:49.538Z << [FTP Session 35 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:45:49.538Z >> [FTP Session 35 192.168.231.1] PASS ****
+2023-04-08T18:45:49.702Z << [FTP Session 35 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:45:49.702Z !! [FTP Session 35 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:45:49.702Z == [FTP Session 35 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:45:49.702Z !! [FTP Session 35 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:46:13.337Z << [FTP Session 36 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:46:13.337Z << [FTP Session 36 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:46:13.337Z >> [FTP Session 36 192.168.231.1] AUTH TLS
+2023-04-08T18:46:13.345Z << [FTP Session 36 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T18:46:13.354Z >> [FTP Session 36 192.168.231.1] USER user
+2023-04-08T18:46:13.354Z << [FTP Session 36 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:46:13.354Z >> [FTP Session 36 192.168.231.1] PASS ****
+2023-04-08T18:46:13.511Z << [FTP Session 36 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:46:13.511Z !! [FTP Session 36 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:46:13.511Z == [FTP Session 36 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-08T18:46:13.511Z !! [FTP Session 36 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:47:08.509Z == [FTP Server] Session 32 ended gracefully.
+2023-04-08T18:49:43.662Z << [FTP Session 37 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:43.662Z << [FTP Session 37 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:43.662Z >> [FTP Session 37 192.168.231.1] USER anonymous
+2023-04-08T18:49:43.662Z << [FTP Session 37 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:49:43.662Z >> [FTP Session 37 192.168.231.1] PASS ****
+2023-04-08T18:49:43.662Z << [FTP Session 37 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:49:43.662Z == [FTP Server] Session 37 ended gracefully.
+2023-04-08T18:49:43.662Z << [FTP Session 38 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:43.662Z << [FTP Session 38 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:43.662Z >> [FTP Session 38 192.168.231.1] USER user
+2023-04-08T18:49:43.662Z << [FTP Session 38 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:49:43.662Z >> [FTP Session 38 192.168.231.1] PASS ****
+2023-04-08T18:49:43.791Z << [FTP Session 38 192.168.231.1 user] 230 Login successful.
+2023-04-08T18:49:43.799Z >> [FTP Session 38 192.168.231.1 user] opts utf8 on
+2023-04-08T18:49:43.799Z << [FTP Session 38 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T18:49:43.799Z >> [FTP Session 38 192.168.231.1 user] PWD
+2023-04-08T18:49:43.799Z << [FTP Session 38 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T18:49:43.811Z == [FTP Server] Session 38 ended gracefully.
+2023-04-08T18:49:47.420Z << [FTP Session 39 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:47.420Z << [FTP Session 39 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:47.421Z >> [FTP Session 39 192.168.231.1] USER anonymous
+2023-04-08T18:49:47.421Z << [FTP Session 39 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:49:47.421Z >> [FTP Session 39 192.168.231.1] PASS ****
+2023-04-08T18:49:47.421Z << [FTP Session 39 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:49:47.421Z == [FTP Server] Session 39 ended gracefully.
+2023-04-08T18:49:47.423Z << [FTP Session 40 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:47.423Z << [FTP Session 40 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:47.423Z >> [FTP Session 40 192.168.231.1] USER user
+2023-04-08T18:49:47.423Z << [FTP Session 40 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:49:47.423Z >> [FTP Session 40 192.168.231.1] PASS ****
+2023-04-08T18:49:47.557Z << [FTP Session 40 192.168.231.1 user] 230 Login successful.
+2023-04-08T18:49:47.557Z >> [FTP Session 40 192.168.231.1 user] opts utf8 on
+2023-04-08T18:49:47.557Z << [FTP Session 40 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T18:49:47.560Z >> [FTP Session 40 192.168.231.1 user] PWD
+2023-04-08T18:49:47.560Z << [FTP Session 40 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T18:49:47.572Z == [FTP Server] Session 40 ended gracefully.
+2023-04-08T18:49:48.379Z << [FTP Session 41 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:48.379Z << [FTP Session 41 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:48.379Z >> [FTP Session 41 192.168.231.1] USER anonymous
+2023-04-08T18:49:48.379Z << [FTP Session 41 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:49:48.382Z >> [FTP Session 41 192.168.231.1] PASS ****
+2023-04-08T18:49:48.382Z << [FTP Session 41 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:49:48.382Z == [FTP Server] Session 41 ended gracefully.
+2023-04-08T18:49:48.382Z << [FTP Session 42 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:48.382Z << [FTP Session 42 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:48.385Z >> [FTP Session 42 192.168.231.1] USER user
+2023-04-08T18:49:58.381Z << [FTP Session 42 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:49:58.381Z >> [FTP Session 42 192.168.231.1] PASS ****
+2023-04-08T18:49:58.567Z << [FTP Session 42 192.168.231.1 user] 230 Login successful.
+2023-04-08T18:49:58.567Z >> [FTP Session 42 192.168.231.1 user] opts utf8 on
+2023-04-08T18:49:58.567Z << [FTP Session 42 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T18:49:58.567Z >> [FTP Session 42 192.168.231.1 user] PWD
+2023-04-08T18:49:58.567Z << [FTP Session 42 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T18:49:58.583Z == [FTP Server] Session 42 ended gracefully.
+2023-04-08T18:49:58.608Z << [FTP Session 43 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:49:58.608Z << [FTP Session 43 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:49:58.608Z >> [FTP Session 43 192.168.231.1] USER anonymous
+2023-04-08T18:50:03.381Z << [FTP Session 43 192.168.231.1] 331 Please, specify the password.
+2023-04-08T18:50:03.381Z >> [FTP Session 43 192.168.231.1] PASS ****
+2023-04-08T18:50:03.381Z << [FTP Session 43 192.168.231.1] 530 Login incorrect.
+2023-04-08T18:50:03.381Z == [FTP Server] Session 43 ended gracefully.
+2023-04-08T18:50:14.487Z << [FTP Session 44 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:50:14.487Z << [FTP Session 44 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:50:14.487Z >> [FTP Session 44 192.168.233.1] AUTH TLS
+2023-04-08T18:50:14.495Z << [FTP Session 44 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T18:50:19.167Z >> [FTP Session 44 192.168.233.1] USER user
+2023-04-08T18:50:19.167Z << [FTP Session 44 192.168.233.1] 331 Please, specify the password.
+2023-04-08T18:50:19.167Z >> [FTP Session 44 192.168.233.1] PASS ****
+2023-04-08T18:50:19.327Z << [FTP Session 44 192.168.233.1] 530 Login incorrect.
+2023-04-08T18:50:19.327Z !! [FTP Session 44 192.168.233.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:50:19.327Z == [FTP Session 44 192.168.233.1] Client did not properly shut down TLS connection
+2023-04-08T18:50:19.327Z !! [FTP Session 44 192.168.233.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:51:34.730Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T18:51:34.730Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T18:51:34.834Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T18:51:34.834Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T18:51:34.834Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T18:52:58.584Z << [FTP Session 45 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:52:58.584Z << [FTP Session 45 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:52:58.584Z >> [FTP Session 45 192.168.233.1] AUTH TLS
+2023-04-08T18:52:58.584Z << [FTP Session 45 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T18:52:58.619Z >> [FTP Session 45 192.168.233.1] USER user
+2023-04-08T18:52:58.619Z << [FTP Session 45 192.168.233.1] 331 Please, specify the password.
+2023-04-08T18:52:58.619Z >> [FTP Session 45 192.168.233.1] PASS ****
+2023-04-08T18:52:58.788Z << [FTP Session 45 192.168.233.1] 530 Login incorrect.
+2023-04-08T18:52:58.788Z !! [FTP Session 45 192.168.233.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-08T18:52:58.788Z == [FTP Session 45 192.168.233.1] Client did not properly shut down TLS connection
+2023-04-08T18:52:58.788Z !! [FTP Session 45 192.168.233.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T18:54:08.410Z << [FTP Session 46 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:54:08.410Z << [FTP Session 46 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:54:08.410Z >> [FTP Session 46 192.168.233.1] AUTH TLS
+2023-04-08T18:54:08.419Z << [FTP Session 46 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T18:54:08.450Z >> [FTP Session 46 192.168.233.1] USER user
+2023-04-08T18:54:08.450Z << [FTP Session 46 192.168.233.1] 331 Please, specify the password.
+2023-04-08T18:54:08.450Z >> [FTP Session 46 192.168.233.1] PASS ****
+2023-04-08T18:54:08.576Z << [FTP Session 46 192.168.233.1 user] 230 Login successful.
+2023-04-08T18:54:08.576Z >> [FTP Session 46 192.168.233.1 user] FEAT
+2023-04-08T18:54:08.576Z << [FTP Session 46 192.168.233.1 user] 211-Features:
+2023-04-08T18:54:08.576Z << [FTP Session 46 192.168.233.1 user] 211 End
+2023-04-08T18:54:08.593Z >> [FTP Session 46 192.168.233.1 user] PWD
+2023-04-08T18:54:08.593Z << [FTP Session 46 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T18:54:08.593Z >> [FTP Session 46 192.168.233.1 user] TYPE I
+2023-04-08T18:54:08.593Z << [FTP Session 46 192.168.233.1 user] 200 Type set to I
+2023-04-08T18:54:08.593Z >> [FTP Session 46 192.168.233.1 user] PASV
+2023-04-08T18:54:08.593Z << [FTP Session 46 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,1)
+2023-04-08T18:54:08.608Z >> [FTP Session 46 192.168.233.1 user] MLSD
+2023-04-08T18:54:08.608Z << [FTP Session 46 192.168.233.1 user] 150 About to start data transfer.
+2023-04-08T18:54:08.608Z << [FTP Session 46 192.168.233.1 user] 226 Operation successful
+2023-04-08T18:57:25.300Z << [FTP Session 47 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T18:57:25.300Z << [FTP Session 47 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T18:57:25.300Z >> [FTP Session 47 192.168.233.1] AUTH TLS
+2023-04-08T18:57:25.300Z << [FTP Session 47 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T18:57:25.626Z >> [FTP Session 47 192.168.233.1] USER user
+2023-04-08T18:57:25.626Z << [FTP Session 47 192.168.233.1] 331 Please, specify the password.
+2023-04-08T18:57:25.626Z >> [FTP Session 47 192.168.233.1] PASS ****
+2023-04-08T18:57:25.751Z << [FTP Session 47 192.168.233.1 user] 230 Login successful.
+2023-04-08T18:57:25.767Z >> [FTP Session 47 192.168.233.1 user] PWD
+2023-04-08T18:57:25.767Z << [FTP Session 47 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T19:08:25.649Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:08:25.649Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:08:25.761Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:08:25.761Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:08:25.761Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:09:09.182Z << [FTP Session 48 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:09:09.182Z << [FTP Session 48 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:09:09.182Z >> [FTP Session 48 192.168.231.1] USER anonymous
+2023-04-08T19:09:09.182Z << [FTP Session 48 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:09:09.182Z >> [FTP Session 48 192.168.231.1] PASS ****
+2023-04-08T19:09:09.182Z << [FTP Session 48 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:09:09.185Z == [FTP Server] Session 48 ended gracefully.
+2023-04-08T19:09:09.187Z << [FTP Session 49 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:09:09.187Z << [FTP Session 49 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:09:09.187Z >> [FTP Session 49 192.168.231.1] USER user
+2023-04-08T19:09:09.187Z << [FTP Session 49 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:09:09.187Z >> [FTP Session 49 192.168.231.1] PASS ****
+2023-04-08T19:09:09.286Z << [FTP Session 49 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:09:09.286Z >> [FTP Session 49 192.168.231.1 user] opts utf8 on
+2023-04-08T19:09:09.286Z << [FTP Session 49 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:09:09.286Z >> [FTP Session 49 192.168.231.1 user] PWD
+2023-04-08T19:09:09.286Z << [FTP Session 49 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:09:09.317Z == [FTP Server] Session 49 ended gracefully.
+2023-04-08T19:09:25.385Z << [FTP Session 50 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:09:25.385Z << [FTP Session 50 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:09:25.386Z >> [FTP Session 50 192.168.231.1] USER anonymous
+2023-04-08T19:09:25.386Z << [FTP Session 50 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:09:25.386Z >> [FTP Session 50 192.168.231.1] PASS ****
+2023-04-08T19:09:25.386Z << [FTP Session 50 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:09:25.387Z == [FTP Server] Session 50 ended gracefully.
+2023-04-08T19:09:25.387Z << [FTP Session 51 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:09:25.387Z << [FTP Session 51 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:09:25.387Z >> [FTP Session 51 192.168.231.1] USER user
+2023-04-08T19:09:25.387Z << [FTP Session 51 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:09:25.387Z >> [FTP Session 51 192.168.231.1] PASS ****
+2023-04-08T19:09:25.501Z << [FTP Session 51 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:09:25.501Z >> [FTP Session 51 192.168.231.1 user] opts utf8 on
+2023-04-08T19:09:25.501Z << [FTP Session 51 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:09:25.504Z >> [FTP Session 51 192.168.231.1 user] PWD
+2023-04-08T19:09:25.504Z << [FTP Session 51 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:09:25.514Z == [FTP Server] Session 51 ended gracefully.
+2023-04-08T19:09:50.967Z << [FTP Session 52 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:09:50.967Z << [FTP Session 52 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:09:50.969Z >> [FTP Session 52 192.168.233.1] AUTH TLS
+2023-04-08T19:09:50.969Z << [FTP Session 52 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T19:09:50.995Z >> [FTP Session 52 192.168.233.1] USER user
+2023-04-08T19:09:50.995Z << [FTP Session 52 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:09:50.995Z >> [FTP Session 52 192.168.233.1] PASS ****
+2023-04-08T19:09:51.123Z << [FTP Session 52 192.168.233.1 user] 230 Login successful.
+2023-04-08T19:09:51.131Z >> [FTP Session 52 192.168.233.1 user] PWD
+2023-04-08T19:09:51.131Z << [FTP Session 52 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T19:09:51.131Z >> [FTP Session 52 192.168.233.1 user] TYPE I
+2023-04-08T19:09:51.131Z << [FTP Session 52 192.168.233.1 user] 200 Type set to I
+2023-04-08T19:09:51.133Z >> [FTP Session 52 192.168.233.1 user] PASV
+2023-04-08T19:09:51.133Z << [FTP Session 52 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,1)
+2023-04-08T19:09:51.134Z >> [FTP Session 52 192.168.233.1 user] MLSD
+2023-04-08T19:09:51.134Z << [FTP Session 52 192.168.233.1 user] 150 About to start data transfer.
+2023-04-08T19:09:51.139Z << [FTP Session 52 192.168.233.1 user] 226 Operation successful
+2023-04-08T19:16:14.226Z == [Administration Server] Administration client with ID 28 disconnected without error
+2023-04-08T19:16:14.226Z == [Administration Server] Session 28 ended gracefully.
+2023-04-08T19:16:57.515Z == [Administration Server] Administration client with ID 53 connected from 127.0.0.1:61598
+2023-04-08T19:19:09.483Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:19:09.484Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:19:09.591Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:19:09.592Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:19:09.592Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:22:45.530Z << [FTP Session 54 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:22:45.530Z << [FTP Session 54 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:22:45.530Z >> [FTP Session 54 192.168.231.1] USER anonymous
+2023-04-08T19:22:45.530Z << [FTP Session 54 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:22:45.530Z >> [FTP Session 54 192.168.231.1] PASS ****
+2023-04-08T19:22:45.530Z << [FTP Session 54 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:22:45.530Z == [FTP Server] Session 54 ended gracefully.
+2023-04-08T19:22:45.530Z << [FTP Session 55 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:22:45.530Z << [FTP Session 55 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:22:45.530Z >> [FTP Session 55 192.168.231.1] USER user
+2023-04-08T19:22:45.530Z << [FTP Session 55 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:22:45.542Z >> [FTP Session 55 192.168.231.1] PASS ****
+2023-04-08T19:22:45.785Z << [FTP Session 55 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:22:45.785Z >> [FTP Session 55 192.168.231.1 user] opts utf8 on
+2023-04-08T19:22:45.785Z << [FTP Session 55 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:22:45.785Z >> [FTP Session 55 192.168.231.1 user] syst
+2023-04-08T19:22:45.786Z << [FTP Session 55 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-08T19:22:45.786Z >> [FTP Session 55 192.168.231.1 user] site help
+2023-04-08T19:22:45.786Z << [FTP Session 55 192.168.231.1 user] 500 Wrong command.
+2023-04-08T19:22:45.786Z >> [FTP Session 55 192.168.231.1 user] PWD
+2023-04-08T19:22:45.786Z << [FTP Session 55 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:22:46.067Z << [FTP Session 56 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:22:46.067Z << [FTP Session 56 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:22:46.067Z >> [FTP Session 56 192.168.231.1] USER user
+2023-04-08T19:22:46.067Z << [FTP Session 56 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:22:46.076Z >> [FTP Session 56 192.168.231.1] PASS ****
+2023-04-08T19:22:46.225Z << [FTP Session 56 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:22:46.225Z >> [FTP Session 56 192.168.231.1 user] opts utf8 on
+2023-04-08T19:22:46.225Z << [FTP Session 56 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:22:46.225Z >> [FTP Session 56 192.168.231.1 user] syst
+2023-04-08T19:22:46.225Z << [FTP Session 56 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-08T19:22:46.225Z >> [FTP Session 56 192.168.231.1 user] site help
+2023-04-08T19:22:46.225Z << [FTP Session 56 192.168.231.1 user] 500 Wrong command.
+2023-04-08T19:22:46.225Z >> [FTP Session 56 192.168.231.1 user] PWD
+2023-04-08T19:22:46.225Z << [FTP Session 56 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:22:46.231Z >> [FTP Session 56 192.168.231.1 user] TYPE A
+2023-04-08T19:22:46.231Z << [FTP Session 56 192.168.231.1 user] 200 Type set to A
+2023-04-08T19:22:46.231Z >> [FTP Session 56 192.168.231.1 user] PASV
+2023-04-08T19:22:46.231Z << [FTP Session 56 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,2)
+2023-04-08T19:22:46.231Z >> [FTP Session 56 192.168.231.1 user] LIST
+2023-04-08T19:22:46.231Z << [FTP Session 56 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:22:46.432Z == [FTP Server] Session 55 ended gracefully.
+2023-04-08T19:22:46.755Z << [FTP Session 57 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:22:46.755Z << [FTP Session 57 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:22:46.755Z >> [FTP Session 57 192.168.231.1] USER user
+2023-04-08T19:22:46.758Z << [FTP Session 57 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:22:46.758Z >> [FTP Session 57 192.168.231.1] PASS ****
+2023-04-08T19:22:46.929Z << [FTP Session 57 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:22:46.929Z >> [FTP Session 57 192.168.231.1 user] opts utf8 on
+2023-04-08T19:22:46.929Z << [FTP Session 57 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:22:46.929Z >> [FTP Session 57 192.168.231.1 user] PWD
+2023-04-08T19:22:46.929Z << [FTP Session 57 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:22:46.929Z >> [FTP Session 57 192.168.231.1 user] TYPE A
+2023-04-08T19:22:46.929Z << [FTP Session 57 192.168.231.1 user] 200 Type set to A
+2023-04-08T19:22:46.932Z >> [FTP Session 57 192.168.231.1 user] PASV
+2023-04-08T19:22:46.932Z << [FTP Session 57 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,3)
+2023-04-08T19:22:46.933Z >> [FTP Session 57 192.168.231.1 user] LIST
+2023-04-08T19:22:46.933Z << [FTP Session 57 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:22:50.300Z == [FTP Server] Session 57 ended gracefully.
+2023-04-08T19:24:13.821Z << [FTP Session 58 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:24:13.821Z << [FTP Session 58 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:24:13.821Z >> [FTP Session 58 192.168.231.1] USER anonymous
+2023-04-08T19:24:13.821Z << [FTP Session 58 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:24:13.821Z >> [FTP Session 58 192.168.231.1] PASS ****
+2023-04-08T19:24:13.821Z << [FTP Session 58 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:24:13.821Z == [FTP Server] Session 58 ended gracefully.
+2023-04-08T19:24:13.825Z << [FTP Session 59 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:24:13.825Z << [FTP Session 59 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:24:13.825Z >> [FTP Session 59 192.168.231.1] USER user
+2023-04-08T19:24:13.825Z << [FTP Session 59 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:24:13.825Z >> [FTP Session 59 192.168.231.1] PASS ****
+2023-04-08T19:24:13.901Z << [FTP Session 59 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:24:13.901Z >> [FTP Session 59 192.168.231.1 user] opts utf8 on
+2023-04-08T19:24:13.901Z << [FTP Session 59 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:24:13.901Z >> [FTP Session 59 192.168.231.1 user] PWD
+2023-04-08T19:24:13.901Z << [FTP Session 59 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:24:14.043Z >> [FTP Session 56 192.168.231.1 user] noop
+2023-04-08T19:24:14.043Z << [FTP Session 56 192.168.231.1 user] 200 Noop ok.
+2023-04-08T19:24:14.043Z >> [FTP Session 56 192.168.231.1 user] CWD /
+2023-04-08T19:24:14.043Z << [FTP Session 56 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:24:14.214Z == [FTP Server] Session 59 ended gracefully.
+2023-04-08T19:24:14.348Z >> [FTP Session 56 192.168.231.1 user] noop
+2023-04-08T19:24:14.348Z << [FTP Session 56 192.168.231.1 user] 200 Noop ok.
+2023-04-08T19:24:14.349Z >> [FTP Session 56 192.168.231.1 user] CWD /
+2023-04-08T19:24:14.349Z << [FTP Session 56 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:27:47.776Z << [FTP Session 60 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:27:47.776Z << [FTP Session 60 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:27:47.776Z >> [FTP Session 60 192.168.233.1] AUTH TLS
+2023-04-08T19:27:47.778Z << [FTP Session 60 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T19:27:47.793Z >> [FTP Session 60 192.168.233.1] USER user
+2023-04-08T19:27:47.793Z << [FTP Session 60 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:27:47.793Z >> [FTP Session 60 192.168.233.1] PASS ****
+2023-04-08T19:27:47.867Z << [FTP Session 60 192.168.233.1 user] 230 Login successful.
+2023-04-08T19:27:47.867Z >> [FTP Session 60 192.168.233.1 user] PWD
+2023-04-08T19:27:47.867Z << [FTP Session 60 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T19:27:47.867Z >> [FTP Session 60 192.168.233.1 user] TYPE I
+2023-04-08T19:27:47.867Z << [FTP Session 60 192.168.233.1 user] 200 Type set to I
+2023-04-08T19:27:47.867Z >> [FTP Session 60 192.168.233.1 user] PASV
+2023-04-08T19:27:47.873Z << [FTP Session 60 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,0)
+2023-04-08T19:27:47.874Z >> [FTP Session 60 192.168.233.1 user] MLSD
+2023-04-08T19:27:47.874Z << [FTP Session 60 192.168.233.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:27:47.874Z !! [FTP Session 60 192.168.233.1 user] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T19:27:47.874Z == [FTP Session 60 192.168.233.1 user] Client did not properly shut down TLS connection
+2023-04-08T19:27:47.874Z !! [FTP Session 60 192.168.233.1 user] Failed connection for data socket. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T19:28:02.157Z << [FTP Session 61 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:28:02.157Z << [FTP Session 61 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:28:02.157Z >> [FTP Session 61 192.168.233.1] AUTH TLS
+2023-04-08T19:28:02.159Z << [FTP Session 61 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T19:28:02.173Z >> [FTP Session 61 192.168.233.1] USER user
+2023-04-08T19:28:02.173Z << [FTP Session 61 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:28:02.173Z >> [FTP Session 61 192.168.233.1] PASS ****
+2023-04-08T19:28:02.251Z << [FTP Session 61 192.168.233.1 user] 230 Login successful.
+2023-04-08T19:28:02.251Z >> [FTP Session 61 192.168.233.1 user] PWD
+2023-04-08T19:28:02.251Z << [FTP Session 61 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T19:28:02.251Z >> [FTP Session 61 192.168.233.1 user] TYPE I
+2023-04-08T19:28:02.251Z << [FTP Session 61 192.168.233.1 user] 200 Type set to I
+2023-04-08T19:28:02.251Z >> [FTP Session 61 192.168.233.1 user] PASV
+2023-04-08T19:28:02.251Z << [FTP Session 61 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,3)
+2023-04-08T19:28:02.251Z >> [FTP Session 61 192.168.233.1 user] MLSD
+2023-04-08T19:28:02.251Z << [FTP Session 61 192.168.233.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:28:02.256Z !! [FTP Session 61 192.168.233.1 user] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T19:28:02.256Z == [FTP Session 61 192.168.233.1 user] Client did not properly shut down TLS connection
+2023-04-08T19:28:02.256Z !! [FTP Session 61 192.168.233.1 user] Failed connection for data socket. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T19:28:47.717Z << [FTP Session 62 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:28:47.717Z << [FTP Session 62 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:28:47.719Z >> [FTP Session 62 192.168.233.1] AUTH TLS
+2023-04-08T19:28:47.719Z << [FTP Session 62 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T19:28:47.729Z >> [FTP Session 62 192.168.233.1] USER user
+2023-04-08T19:28:47.729Z << [FTP Session 62 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:28:47.730Z >> [FTP Session 62 192.168.233.1] PASS ****
+2023-04-08T19:28:47.812Z << [FTP Session 62 192.168.233.1 user] 230 Login successful.
+2023-04-08T19:28:47.812Z >> [FTP Session 62 192.168.233.1 user] PWD
+2023-04-08T19:28:47.812Z << [FTP Session 62 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T19:28:47.812Z >> [FTP Session 62 192.168.233.1 user] TYPE I
+2023-04-08T19:28:47.812Z << [FTP Session 62 192.168.233.1 user] 200 Type set to I
+2023-04-08T19:28:47.812Z >> [FTP Session 62 192.168.233.1 user] PASV
+2023-04-08T19:28:47.812Z << [FTP Session 62 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,1)
+2023-04-08T19:28:47.812Z >> [FTP Session 62 192.168.233.1 user] MLSD
+2023-04-08T19:28:47.812Z << [FTP Session 62 192.168.233.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:28:47.819Z !! [FTP Session 62 192.168.233.1 user] Failed connection for data socket. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T19:30:05.517Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:30:05.517Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:30:05.627Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:30:05.627Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:30:05.627Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:31:32.527Z << [FTP Session 63 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:31:32.527Z << [FTP Session 63 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:31:32.529Z >> [FTP Session 63 192.168.231.1] USER anonymous
+2023-04-08T19:31:32.529Z << [FTP Session 63 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:31:32.529Z >> [FTP Session 63 192.168.231.1] PASS ****
+2023-04-08T19:31:32.529Z << [FTP Session 63 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:31:32.529Z == [FTP Server] Session 63 ended gracefully.
+2023-04-08T19:31:32.529Z << [FTP Session 64 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:31:32.529Z << [FTP Session 64 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:31:32.529Z >> [FTP Session 64 192.168.231.1] USER user
+2023-04-08T19:31:32.529Z << [FTP Session 64 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:31:32.529Z >> [FTP Session 64 192.168.231.1] PASS ****
+2023-04-08T19:31:32.614Z << [FTP Session 64 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:31:32.614Z >> [FTP Session 64 192.168.231.1 user] opts utf8 on
+2023-04-08T19:31:32.614Z << [FTP Session 64 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:31:32.614Z >> [FTP Session 64 192.168.231.1 user] PWD
+2023-04-08T19:31:32.614Z << [FTP Session 64 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:31:32.748Z >> [FTP Session 56 192.168.231.1 user] noop
+2023-04-08T19:31:32.748Z << [FTP Session 56 192.168.231.1 user] 200 Noop ok.
+2023-04-08T19:31:32.751Z >> [FTP Session 56 192.168.231.1 user] CWD /
+2023-04-08T19:31:32.751Z << [FTP Session 56 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:31:32.942Z == [FTP Server] Session 64 ended gracefully.
+2023-04-08T19:31:33.067Z >> [FTP Session 56 192.168.231.1 user] noop
+2023-04-08T19:31:33.067Z << [FTP Session 56 192.168.231.1 user] 200 Noop ok.
+2023-04-08T19:31:33.067Z >> [FTP Session 56 192.168.231.1 user] CWD /
+2023-04-08T19:31:33.067Z << [FTP Session 56 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:31:56.824Z >> [FTP Session 56 192.168.231.1 user] noop
+2023-04-08T19:31:56.824Z << [FTP Session 56 192.168.231.1 user] 200 Noop ok.
+2023-04-08T19:31:56.824Z >> [FTP Session 56 192.168.231.1 user] CWD /
+2023-04-08T19:31:56.824Z << [FTP Session 56 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:32:38.837Z << [FTP Session 65 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:32:38.837Z << [FTP Session 65 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:32:38.837Z >> [FTP Session 65 192.168.233.1] AUTH TLS
+2023-04-08T19:32:38.838Z << [FTP Session 65 192.168.233.1] 234 Using authentication type TLS.
+2023-04-08T19:32:38.854Z >> [FTP Session 65 192.168.233.1] USER user
+2023-04-08T19:32:38.854Z << [FTP Session 65 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:32:38.854Z >> [FTP Session 65 192.168.233.1] PASS ****
+2023-04-08T19:32:38.921Z << [FTP Session 65 192.168.233.1 user] 230 Login successful.
+2023-04-08T19:32:38.921Z >> [FTP Session 65 192.168.233.1 user] PWD
+2023-04-08T19:32:38.921Z << [FTP Session 65 192.168.233.1 user] 257 "/" is current directory.
+2023-04-08T19:32:38.921Z >> [FTP Session 65 192.168.233.1 user] TYPE I
+2023-04-08T19:32:38.921Z << [FTP Session 65 192.168.233.1 user] 200 Type set to I
+2023-04-08T19:32:38.921Z >> [FTP Session 65 192.168.233.1 user] PASV
+2023-04-08T19:32:38.921Z << [FTP Session 65 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,3)
+2023-04-08T19:32:38.934Z >> [FTP Session 65 192.168.233.1 user] MLSD
+2023-04-08T19:32:38.934Z << [FTP Session 65 192.168.233.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:32:38.934Z !! [FTP Session 65 192.168.233.1 user] Failed connection for data socket. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T19:32:46.943Z == [FTP Server] Session 56 ended gracefully.
+2023-04-08T19:33:43.621Z << [FTP Session 66 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:33:43.621Z << [FTP Session 66 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:33:43.624Z >> [FTP Session 66 192.168.231.1] AUTH TLS
+2023-04-08T19:33:43.624Z << [FTP Session 66 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:33:53.566Z >> [FTP Session 66 192.168.231.1] USER user
+2023-04-08T19:33:53.566Z << [FTP Session 66 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:33:53.567Z >> [FTP Session 66 192.168.231.1] PASS ****
+2023-04-08T19:33:53.643Z << [FTP Session 66 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:33:53.643Z >> [FTP Session 66 192.168.231.1 user] FEAT
+2023-04-08T19:33:53.643Z << [FTP Session 66 192.168.231.1 user] 211-Features:
+2023-04-08T19:33:53.643Z << [FTP Session 66 192.168.231.1 user] 211 End
+2023-04-08T19:33:53.657Z >> [FTP Session 66 192.168.231.1 user] PWD
+2023-04-08T19:33:53.657Z << [FTP Session 66 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:33:53.657Z >> [FTP Session 66 192.168.231.1 user] TYPE I
+2023-04-08T19:33:53.657Z << [FTP Session 66 192.168.231.1 user] 200 Type set to I
+2023-04-08T19:33:53.657Z >> [FTP Session 66 192.168.231.1 user] PASV
+2023-04-08T19:33:53.657Z << [FTP Session 66 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,1)
+2023-04-08T19:33:53.660Z >> [FTP Session 66 192.168.231.1 user] MLSD
+2023-04-08T19:33:53.660Z << [FTP Session 66 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:33:53.661Z !! [FTP Session 66 192.168.231.1 user] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T19:33:53.661Z == [FTP Session 66 192.168.231.1 user] Client did not properly shut down TLS connection
+2023-04-08T19:33:53.661Z !! [FTP Session 66 192.168.231.1 user] Failed connection for data socket. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T19:34:17.856Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:34:17.856Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:34:17.959Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:34:17.959Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:34:17.959Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:34:58.990Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:34:58.990Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:34:59.099Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:34:59.099Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:34:59.099Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:35:17.142Z << [FTP Session 67 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:35:17.142Z << [FTP Session 67 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:35:17.142Z >> [FTP Session 67 192.168.231.1] AUTH TLS
+2023-04-08T19:35:17.142Z << [FTP Session 67 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:35:17.167Z >> [FTP Session 67 192.168.231.1] USER user
+2023-04-08T19:35:17.167Z << [FTP Session 67 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:35:17.167Z >> [FTP Session 67 192.168.231.1] PASS ****
+2023-04-08T19:35:17.233Z << [FTP Session 67 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:35:17.233Z >> [FTP Session 67 192.168.231.1 user] PWD
+2023-04-08T19:35:17.233Z << [FTP Session 67 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:35:17.233Z >> [FTP Session 67 192.168.231.1 user] TYPE I
+2023-04-08T19:35:17.233Z << [FTP Session 67 192.168.231.1 user] 200 Type set to I
+2023-04-08T19:35:17.233Z >> [FTP Session 67 192.168.231.1 user] PASV
+2023-04-08T19:35:17.233Z << [FTP Session 67 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,0)
+2023-04-08T19:35:17.233Z >> [FTP Session 67 192.168.231.1 user] MLSD
+2023-04-08T19:35:17.233Z << [FTP Session 67 192.168.231.1 user] 550 Couldn't open the file or directory
+2023-04-08T19:35:17.245Z !! [FTP Session 67 192.168.231.1 user] GnuTLS error -110: The TLS connection was non-properly terminated.
+2023-04-08T19:35:17.245Z == [FTP Session 67 192.168.231.1 user] Client did not properly shut down TLS connection
+2023-04-08T19:35:17.245Z !! [FTP Session 67 192.168.231.1 user] Failed connection for data socket. Reason: ECONNABORTED - Connection aborted.
+2023-04-08T19:37:33.390Z == [Administration Server] Administration client with ID 53 disconnected without error
+2023-04-08T19:37:33.390Z == [Administration Server] Session 53 ended gracefully.
+2023-04-08T19:37:37.829Z == [Administration Server] Administration client with ID 68 connected from 127.0.0.1:61850
+2023-04-08T19:38:11.325Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:38:11.325Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:38:11.432Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:38:11.432Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:38:11.432Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:39:16.969Z << [FTP Session 69 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:39:16.969Z << [FTP Session 69 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:39:16.969Z >> [FTP Session 69 192.168.231.1] USER anonymous
+2023-04-08T19:39:16.969Z << [FTP Session 69 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:39:16.969Z >> [FTP Session 69 192.168.231.1] PASS ****
+2023-04-08T19:39:16.969Z << [FTP Session 69 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:39:16.978Z == [FTP Server] Session 69 ended gracefully.
+2023-04-08T19:39:16.978Z << [FTP Session 70 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:39:16.978Z << [FTP Session 70 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:39:16.978Z >> [FTP Session 70 192.168.231.1] USER user
+2023-04-08T19:39:16.978Z << [FTP Session 70 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:39:16.980Z >> [FTP Session 70 192.168.231.1] PASS ****
+2023-04-08T19:39:17.056Z << [FTP Session 70 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:39:17.056Z >> [FTP Session 70 192.168.231.1 user] opts utf8 on
+2023-04-08T19:39:17.056Z << [FTP Session 70 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:39:17.056Z >> [FTP Session 70 192.168.231.1 user] syst
+2023-04-08T19:39:17.056Z << [FTP Session 70 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-08T19:39:17.056Z >> [FTP Session 70 192.168.231.1 user] site help
+2023-04-08T19:39:17.056Z << [FTP Session 70 192.168.231.1 user] 500 Wrong command.
+2023-04-08T19:39:17.056Z >> [FTP Session 70 192.168.231.1 user] PWD
+2023-04-08T19:39:17.056Z << [FTP Session 70 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:39:17.190Z << [FTP Session 71 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:39:17.190Z << [FTP Session 71 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:39:17.190Z >> [FTP Session 71 192.168.231.1] USER user
+2023-04-08T19:39:17.190Z << [FTP Session 71 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:39:17.190Z >> [FTP Session 71 192.168.231.1] PASS ****
+2023-04-08T19:39:17.265Z << [FTP Session 71 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:39:17.265Z >> [FTP Session 71 192.168.231.1 user] opts utf8 on
+2023-04-08T19:39:17.265Z << [FTP Session 71 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:39:17.265Z >> [FTP Session 71 192.168.231.1 user] syst
+2023-04-08T19:39:17.265Z << [FTP Session 71 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-08T19:39:17.265Z >> [FTP Session 71 192.168.231.1 user] site help
+2023-04-08T19:39:17.265Z << [FTP Session 71 192.168.231.1 user] 500 Wrong command.
+2023-04-08T19:39:17.265Z >> [FTP Session 71 192.168.231.1 user] PWD
+2023-04-08T19:39:17.265Z << [FTP Session 71 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:39:17.265Z >> [FTP Session 71 192.168.231.1 user] TYPE A
+2023-04-08T19:39:17.265Z << [FTP Session 71 192.168.231.1 user] 200 Type set to A
+2023-04-08T19:39:17.267Z >> [FTP Session 71 192.168.231.1 user] PASV
+2023-04-08T19:39:17.267Z << [FTP Session 71 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,2)
+2023-04-08T19:39:17.267Z >> [FTP Session 71 192.168.231.1 user] LIST
+2023-04-08T19:39:17.269Z << [FTP Session 71 192.168.231.1 user] 150 Starting data transfer.
+2023-04-08T19:39:17.270Z << [FTP Session 71 192.168.231.1 user] 226 Operation successful
+2023-04-08T19:39:17.350Z == [FTP Server] Session 70 ended gracefully.
+2023-04-08T19:39:40.350Z << [FTP Session 72 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:39:40.350Z << [FTP Session 72 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:39:40.352Z >> [FTP Session 72 192.168.231.1] AUTH TLS
+2023-04-08T19:39:40.352Z << [FTP Session 72 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:39:40.368Z >> [FTP Session 72 192.168.231.1] USER user
+2023-04-08T19:39:40.369Z << [FTP Session 72 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:39:40.369Z >> [FTP Session 72 192.168.231.1] PASS ****
+2023-04-08T19:39:40.444Z << [FTP Session 72 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:39:40.446Z >> [FTP Session 72 192.168.231.1 user] PWD
+2023-04-08T19:39:40.446Z << [FTP Session 72 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:39:40.446Z >> [FTP Session 72 192.168.231.1 user] TYPE I
+2023-04-08T19:39:40.446Z << [FTP Session 72 192.168.231.1 user] 200 Type set to I
+2023-04-08T19:39:40.446Z >> [FTP Session 72 192.168.231.1 user] PASV
+2023-04-08T19:39:40.446Z << [FTP Session 72 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,3)
+2023-04-08T19:39:40.446Z >> [FTP Session 72 192.168.231.1 user] MLSD
+2023-04-08T19:39:40.446Z << [FTP Session 72 192.168.231.1 user] 150 About to start data transfer.
+2023-04-08T19:39:40.454Z << [FTP Session 72 192.168.231.1 user] 226 Operation successful
+2023-04-08T19:39:41.404Z << [FTP Session 73 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:39:41.404Z << [FTP Session 73 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:39:41.404Z >> [FTP Session 73 192.168.231.1] AUTH TLS
+2023-04-08T19:39:41.404Z << [FTP Session 73 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:39:41.420Z >> [FTP Session 73 192.168.231.1] USER user
+2023-04-08T19:39:41.420Z << [FTP Session 73 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:39:41.426Z >> [FTP Session 73 192.168.231.1] PASS ****
+2023-04-08T19:39:41.500Z << [FTP Session 73 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:39:41.506Z >> [FTP Session 73 192.168.231.1 user] PWD
+2023-04-08T19:39:41.506Z << [FTP Session 73 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:41:58.760Z << [FTP Session 74 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:41:58.760Z << [FTP Session 74 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:41:58.761Z >> [FTP Session 74 192.168.231.1] AUTH TLS
+2023-04-08T19:41:58.762Z << [FTP Session 74 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:41:58.773Z >> [FTP Session 74 192.168.231.1] USER user
+2023-04-08T19:41:58.773Z << [FTP Session 74 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:41:58.773Z >> [FTP Session 74 192.168.231.1] PASS ****
+2023-04-08T19:41:58.844Z << [FTP Session 74 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:41:58.844Z >> [FTP Session 74 192.168.231.1 user] PWD
+2023-04-08T19:41:58.844Z << [FTP Session 74 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:42:15.212Z << [FTP Session 75 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:42:15.212Z << [FTP Session 75 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:42:15.212Z >> [FTP Session 75 192.168.231.1] USER anonymous
+2023-04-08T19:42:15.212Z << [FTP Session 75 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:42:15.213Z >> [FTP Session 75 192.168.231.1] PASS ****
+2023-04-08T19:42:15.213Z << [FTP Session 75 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:42:15.213Z == [FTP Server] Session 75 ended gracefully.
+2023-04-08T19:42:15.214Z << [FTP Session 76 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:42:15.214Z << [FTP Session 76 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:42:15.214Z >> [FTP Session 76 192.168.231.1] USER user
+2023-04-08T19:42:15.214Z << [FTP Session 76 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:42:15.214Z >> [FTP Session 76 192.168.231.1] PASS ****
+2023-04-08T19:42:15.291Z << [FTP Session 76 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:42:15.291Z >> [FTP Session 76 192.168.231.1 user] opts utf8 on
+2023-04-08T19:42:15.291Z << [FTP Session 76 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:42:15.291Z >> [FTP Session 76 192.168.231.1 user] PWD
+2023-04-08T19:42:15.291Z << [FTP Session 76 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:42:15.562Z == [FTP Server] Session 76 ended gracefully.
+2023-04-08T19:42:45.636Z << [FTP Session 77 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:42:45.636Z << [FTP Session 77 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:42:45.636Z >> [FTP Session 77 192.168.231.1] USER anonymous
+2023-04-08T19:42:45.636Z << [FTP Session 77 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:42:45.636Z >> [FTP Session 77 192.168.231.1] PASS ****
+2023-04-08T19:42:45.636Z << [FTP Session 77 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:42:45.636Z == [FTP Server] Session 77 ended gracefully.
+2023-04-08T19:42:45.639Z << [FTP Session 78 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:42:45.639Z << [FTP Session 78 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:42:45.639Z >> [FTP Session 78 192.168.231.1] USER user
+2023-04-08T19:42:45.639Z << [FTP Session 78 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:42:45.639Z >> [FTP Session 78 192.168.231.1] PASS ****
+2023-04-08T19:42:45.709Z << [FTP Session 78 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:42:45.709Z >> [FTP Session 78 192.168.231.1 user] opts utf8 on
+2023-04-08T19:42:45.709Z << [FTP Session 78 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:42:45.709Z >> [FTP Session 78 192.168.231.1 user] PWD
+2023-04-08T19:42:45.709Z << [FTP Session 78 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:42:45.996Z == [FTP Server] Session 78 ended gracefully.
+2023-04-08T19:42:46.955Z == [FTP Server] Session 71 ended gracefully.
+2023-04-08T19:43:26.744Z << [FTP Session 79 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:43:26.744Z << [FTP Session 79 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:43:26.744Z >> [FTP Session 79 192.168.231.1] USER anonymous
+2023-04-08T19:43:26.744Z << [FTP Session 79 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:43:26.744Z >> [FTP Session 79 192.168.231.1] PASS ****
+2023-04-08T19:43:26.744Z << [FTP Session 79 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:43:26.744Z == [FTP Server] Session 79 ended gracefully.
+2023-04-08T19:43:26.746Z << [FTP Session 80 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:43:26.746Z << [FTP Session 80 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:43:26.746Z >> [FTP Session 80 192.168.231.1] USER user
+2023-04-08T19:43:26.746Z << [FTP Session 80 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:43:26.746Z >> [FTP Session 80 192.168.231.1] PASS ****
+2023-04-08T19:43:26.824Z << [FTP Session 80 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:43:26.824Z >> [FTP Session 80 192.168.231.1 user] opts utf8 on
+2023-04-08T19:43:26.824Z << [FTP Session 80 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:43:26.824Z >> [FTP Session 80 192.168.231.1 user] PWD
+2023-04-08T19:43:26.824Z << [FTP Session 80 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:43:27.123Z == [FTP Server] Session 80 ended gracefully.
+2023-04-08T19:43:50.972Z << [FTP Session 81 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:43:50.972Z << [FTP Session 81 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:43:50.972Z >> [FTP Session 81 192.168.231.1] AUTH TLS
+2023-04-08T19:43:50.972Z << [FTP Session 81 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:43:50.999Z >> [FTP Session 81 192.168.231.1] USER user
+2023-04-08T19:43:50.999Z << [FTP Session 81 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:43:50.999Z >> [FTP Session 81 192.168.231.1] PASS ****
+2023-04-08T19:43:51.067Z << [FTP Session 81 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:43:51.067Z >> [FTP Session 81 192.168.231.1 user] PWD
+2023-04-08T19:43:51.067Z << [FTP Session 81 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:43:53.278Z >> [FTP Session 81 192.168.231.1 user] CDUP
+2023-04-08T19:43:53.282Z << [FTP Session 81 192.168.231.1 user] 250 CDUP command successful
+2023-04-08T19:43:53.282Z >> [FTP Session 81 192.168.231.1 user] PWD
+2023-04-08T19:43:53.282Z << [FTP Session 81 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:44:01.722Z << [FTP Session 82 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:44:01.722Z << [FTP Session 82 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:44:01.722Z >> [FTP Session 82 192.168.231.1] AUTH TLS
+2023-04-08T19:44:01.722Z << [FTP Session 82 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:44:01.734Z >> [FTP Session 82 192.168.231.1] USER user
+2023-04-08T19:44:01.734Z << [FTP Session 82 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:44:01.734Z >> [FTP Session 82 192.168.231.1] PASS ****
+2023-04-08T19:44:01.813Z << [FTP Session 82 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:44:01.813Z >> [FTP Session 82 192.168.231.1 user] PWD
+2023-04-08T19:44:01.813Z << [FTP Session 82 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:44:41.315Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:44:41.315Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:44:41.432Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:44:41.432Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:44:41.432Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:45:04.341Z << [FTP Session 83 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:45:04.341Z << [FTP Session 83 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:45:04.341Z >> [FTP Session 83 192.168.231.1] USER anonymous
+2023-04-08T19:45:04.341Z << [FTP Session 83 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:45:04.341Z >> [FTP Session 83 192.168.231.1] PASS ****
+2023-04-08T19:45:04.341Z << [FTP Session 83 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:45:04.341Z == [FTP Server] Session 83 ended gracefully.
+2023-04-08T19:45:04.341Z << [FTP Session 84 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:45:04.341Z << [FTP Session 84 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:45:04.352Z >> [FTP Session 84 192.168.231.1] USER user
+2023-04-08T19:45:04.352Z << [FTP Session 84 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:45:04.352Z >> [FTP Session 84 192.168.231.1] PASS ****
+2023-04-08T19:45:04.411Z << [FTP Session 84 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:45:04.411Z >> [FTP Session 84 192.168.231.1 user] opts utf8 on
+2023-04-08T19:45:04.411Z << [FTP Session 84 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:45:04.411Z >> [FTP Session 84 192.168.231.1 user] PWD
+2023-04-08T19:45:04.411Z << [FTP Session 84 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:45:04.420Z == [FTP Server] Session 84 ended gracefully.
+2023-04-08T19:45:09.104Z << [FTP Session 85 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:45:09.104Z << [FTP Session 85 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:45:09.104Z >> [FTP Session 85 192.168.231.1] USER user
+2023-04-08T19:45:09.104Z << [FTP Session 85 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:45:09.104Z >> [FTP Session 85 192.168.231.1] PASS ****
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:45:09.172Z >> [FTP Session 85 192.168.231.1 user] opts utf8 on
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:45:09.172Z >> [FTP Session 85 192.168.231.1 user] PWD
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:45:09.172Z >> [FTP Session 85 192.168.231.1 user] TYPE A
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 200 Type set to A
+2023-04-08T19:45:09.172Z >> [FTP Session 85 192.168.231.1 user] PASV
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,2)
+2023-04-08T19:45:09.172Z >> [FTP Session 85 192.168.231.1 user] LIST
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 150 Starting data transfer.
+2023-04-08T19:45:09.172Z << [FTP Session 85 192.168.231.1 user] 226 Operation successful
+2023-04-08T19:45:36.223Z << [FTP Session 86 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:45:36.223Z << [FTP Session 86 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:45:36.223Z >> [FTP Session 86 192.168.231.1] AUTH TLS
+2023-04-08T19:45:36.224Z << [FTP Session 86 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:45:36.244Z >> [FTP Session 86 192.168.231.1] USER user
+2023-04-08T19:45:36.244Z << [FTP Session 86 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:45:36.244Z >> [FTP Session 86 192.168.231.1] PASS ****
+2023-04-08T19:45:36.313Z << [FTP Session 86 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:45:36.313Z >> [FTP Session 86 192.168.231.1 user] PWD
+2023-04-08T19:45:36.313Z << [FTP Session 86 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:45:42.396Z << [FTP Session 87 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:45:42.396Z << [FTP Session 87 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:45:42.398Z >> [FTP Session 87 192.168.231.1] AUTH TLS
+2023-04-08T19:45:42.398Z << [FTP Session 87 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:45:42.417Z >> [FTP Session 87 192.168.231.1] USER user
+2023-04-08T19:45:42.417Z << [FTP Session 87 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:45:42.417Z >> [FTP Session 87 192.168.231.1] PASS ****
+2023-04-08T19:45:42.490Z << [FTP Session 87 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:45:42.490Z >> [FTP Session 87 192.168.231.1 user] PWD
+2023-04-08T19:45:42.490Z << [FTP Session 87 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:45:47.725Z << [FTP Session 88 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:45:47.725Z << [FTP Session 88 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:45:47.726Z >> [FTP Session 88 192.168.231.1] AUTH TLS
+2023-04-08T19:45:47.726Z << [FTP Session 88 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:45:47.739Z >> [FTP Session 88 192.168.231.1] USER user
+2023-04-08T19:45:47.739Z << [FTP Session 88 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:45:47.749Z >> [FTP Session 88 192.168.231.1] PASS ****
+2023-04-08T19:45:47.817Z << [FTP Session 88 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:45:47.817Z >> [FTP Session 88 192.168.231.1 user] PWD
+2023-04-08T19:45:47.817Z << [FTP Session 88 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:46:11.527Z << [FTP Session 89 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:46:11.527Z << [FTP Session 89 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:46:11.527Z >> [FTP Session 89 192.168.231.1] USER anonymous
+2023-04-08T19:46:11.527Z << [FTP Session 89 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:46:11.527Z >> [FTP Session 89 192.168.231.1] PASS ****
+2023-04-08T19:46:11.528Z << [FTP Session 89 192.168.231.1] 530 Login incorrect.
+2023-04-08T19:46:11.528Z == [FTP Server] Session 89 ended gracefully.
+2023-04-08T19:46:11.529Z << [FTP Session 90 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:46:11.529Z << [FTP Session 90 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:46:11.529Z >> [FTP Session 90 192.168.231.1] USER user
+2023-04-08T19:46:11.529Z << [FTP Session 90 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:46:11.529Z >> [FTP Session 90 192.168.231.1] PASS ****
+2023-04-08T19:46:11.608Z << [FTP Session 90 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:46:11.608Z >> [FTP Session 90 192.168.231.1 user] opts utf8 on
+2023-04-08T19:46:11.608Z << [FTP Session 90 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-08T19:46:11.608Z >> [FTP Session 90 192.168.231.1 user] PWD
+2023-04-08T19:46:11.608Z << [FTP Session 90 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:46:11.622Z == [FTP Server] Session 90 ended gracefully.
+2023-04-08T19:47:01.501Z == [Administration Server] Administration client with ID 68 disconnected without error
+2023-04-08T19:47:01.501Z == [Administration Server] Session 68 ended gracefully.
+2023-04-08T19:47:05.823Z == [Administration Server] Administration client with ID 91 connected from 127.0.0.1:62107
+2023-04-08T19:47:18.903Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-08T19:47:18.903Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-08T19:47:19.009Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-08T19:47:19.010Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-08T19:47:19.010Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-08T19:47:45.582Z << [FTP Session 92 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:47:45.582Z << [FTP Session 92 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:47:45.582Z >> [FTP Session 92 192.168.231.1] AUTH TLS
+2023-04-08T19:47:45.582Z << [FTP Session 92 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:47:45.602Z >> [FTP Session 92 192.168.231.1] USER user
+2023-04-08T19:47:45.602Z << [FTP Session 92 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:47:45.602Z >> [FTP Session 92 192.168.231.1] PASS ****
+2023-04-08T19:47:45.670Z << [FTP Session 92 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:47:45.670Z >> [FTP Session 92 192.168.231.1 user] PWD
+2023-04-08T19:47:45.670Z << [FTP Session 92 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:48:02.188Z == [FTP Server] Session 85 ended gracefully.
+2023-04-08T19:48:49.375Z << [FTP Session 93 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:48:49.375Z << [FTP Session 93 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:48:49.382Z >> [FTP Session 93 192.168.233.1] USER anonymous
+2023-04-08T19:48:49.382Z << [FTP Session 93 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:48:49.382Z >> [FTP Session 93 192.168.233.1] PASS ****
+2023-04-08T19:48:49.382Z << [FTP Session 93 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:48:49.382Z == [FTP Server] Session 93 ended gracefully.
+2023-04-08T19:48:49.439Z << [FTP Session 94 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:48:49.439Z << [FTP Session 94 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:48:49.439Z >> [FTP Session 94 192.168.233.1] USER anonymous
+2023-04-08T19:48:49.439Z << [FTP Session 94 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:48:49.439Z >> [FTP Session 94 192.168.233.1] PASS ****
+2023-04-08T19:48:49.439Z << [FTP Session 94 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:48:49.441Z == [FTP Server] Session 94 ended gracefully.
+2023-04-08T19:49:06.554Z << [FTP Session 95 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:06.554Z << [FTP Session 95 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:06.554Z >> [FTP Session 95 192.168.233.1] USER user
+2023-04-08T19:49:06.554Z << [FTP Session 95 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:06.555Z >> [FTP Session 95 192.168.233.1] PASS ****
+2023-04-08T19:49:06.627Z << [FTP Session 95 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:06.627Z == [FTP Server] Session 95 ended gracefully.
+2023-04-08T19:49:08.754Z << [FTP Session 96 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:08.754Z << [FTP Session 96 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:08.754Z >> [FTP Session 96 192.168.233.1] USER user
+2023-04-08T19:49:11.637Z << [FTP Session 96 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:11.637Z >> [FTP Session 96 192.168.233.1] PASS ****
+2023-04-08T19:49:11.747Z << [FTP Session 96 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:11.747Z == [FTP Server] Session 96 ended gracefully.
+2023-04-08T19:49:15.494Z << [FTP Session 97 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:15.494Z << [FTP Session 97 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:15.494Z >> [FTP Session 97 192.168.233.1] USER user
+2023-04-08T19:49:21.633Z << [FTP Session 97 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:21.633Z >> [FTP Session 97 192.168.233.1] PASS ****
+2023-04-08T19:49:21.743Z << [FTP Session 97 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:21.743Z == [FTP Server] Session 97 ended gracefully.
+2023-04-08T19:49:26.125Z << [FTP Session 98 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:26.125Z << [FTP Session 98 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:26.125Z >> [FTP Session 98 192.168.233.1] USER user
+2023-04-08T19:49:31.641Z << [FTP Session 98 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:31.641Z >> [FTP Session 98 192.168.233.1] PASS ****
+2023-04-08T19:49:31.754Z << [FTP Session 98 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:31.754Z == [FTP Server] Session 98 ended gracefully.
+2023-04-08T19:49:34.254Z << [FTP Session 99 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:34.254Z << [FTP Session 99 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:34.254Z >> [FTP Session 99 192.168.233.1] USER user
+2023-04-08T19:49:41.633Z << [FTP Session 99 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:41.633Z >> [FTP Session 99 192.168.233.1] PASS ****
+2023-04-08T19:49:41.743Z << [FTP Session 99 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:41.743Z == [FTP Server] Session 99 ended gracefully.
+2023-04-08T19:49:43.614Z << [FTP Session 100 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:43.614Z << [FTP Session 100 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:43.614Z >> [FTP Session 100 192.168.233.1] USER user
+2023-04-08T19:49:51.627Z << [FTP Session 100 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:51.627Z >> [FTP Session 100 192.168.233.1] PASS ****
+2023-04-08T19:49:51.754Z << [FTP Session 100 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:51.754Z == [FTP Server] Session 100 ended gracefully.
+2023-04-08T19:49:56.170Z << [FTP Session 101 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:56.170Z << [FTP Session 101 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:56.170Z >> [FTP Session 101 192.168.233.1] USER user
+2023-04-08T19:49:56.760Z << [FTP Session 101 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:49:56.760Z >> [FTP Session 101 192.168.233.1] PASS ****
+2023-04-08T19:49:56.890Z << [FTP Session 101 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:49:56.890Z == [FTP Server] Session 101 ended gracefully.
+2023-04-08T19:49:59.482Z << [FTP Session 102 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:49:59.482Z << [FTP Session 102 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:49:59.482Z >> [FTP Session 102 192.168.233.1] USER user
+2023-04-08T19:50:06.763Z << [FTP Session 102 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:50:06.763Z >> [FTP Session 102 192.168.233.1] PASS ****
+2023-04-08T19:50:06.921Z << [FTP Session 102 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:50:06.921Z == [FTP Server] Session 102 ended gracefully.
+2023-04-08T19:50:08.656Z << [FTP Session 103 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:50:08.656Z << [FTP Session 103 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:50:08.656Z >> [FTP Session 103 192.168.233.1] USER user
+2023-04-08T19:50:16.768Z << [FTP Session 103 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:50:16.768Z >> [FTP Session 103 192.168.233.1] PASS ****
+2023-04-08T19:50:16.894Z << [FTP Session 103 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:50:16.894Z == [FTP Server] Session 103 ended gracefully.
+2023-04-08T19:50:19.454Z << [FTP Session 104 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:50:19.454Z << [FTP Session 104 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:50:19.454Z >> [FTP Session 104 192.168.233.1] USER user
+2023-04-08T19:50:26.762Z << [FTP Session 104 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:50:26.762Z >> [FTP Session 104 192.168.233.1] PASS ****
+2023-04-08T19:50:26.887Z << [FTP Session 104 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:50:26.887Z == [FTP Server] Session 104 ended gracefully.
+2023-04-08T19:50:29.819Z << [FTP Session 105 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:50:29.819Z << [FTP Session 105 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:50:29.819Z >> [FTP Session 105 192.168.233.1] USER user
+2023-04-08T19:50:36.764Z << [FTP Session 105 192.168.233.1] 331 Please, specify the password.
+2023-04-08T19:50:36.764Z >> [FTP Session 105 192.168.233.1] PASS ****
+2023-04-08T19:50:36.889Z << [FTP Session 105 192.168.233.1] 530 Login incorrect.
+2023-04-08T19:50:36.889Z == [FTP Server] Session 105 ended gracefully.
+2023-04-08T19:50:54.988Z << [FTP Session 106 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-08T19:50:54.988Z << [FTP Session 106 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T19:50:54.988Z >> [FTP Session 106 192.168.231.1] AUTH TLS
+2023-04-08T19:50:54.989Z << [FTP Session 106 192.168.231.1] 234 Using authentication type TLS.
+2023-04-08T19:50:55.006Z >> [FTP Session 106 192.168.231.1] USER user
+2023-04-08T19:50:55.006Z << [FTP Session 106 192.168.231.1] 331 Please, specify the password.
+2023-04-08T19:50:55.006Z >> [FTP Session 106 192.168.231.1] PASS ****
+2023-04-08T19:50:55.070Z << [FTP Session 106 192.168.231.1 user] 230 Login successful.
+2023-04-08T19:50:55.085Z >> [FTP Session 106 192.168.231.1 user] PWD
+2023-04-08T19:50:55.085Z << [FTP Session 106 192.168.231.1 user] 257 "/" is current directory.
+2023-04-08T19:50:55.085Z >> [FTP Session 106 192.168.231.1 user] TYPE I
+2023-04-08T19:50:55.085Z << [FTP Session 106 192.168.231.1 user] 200 Type set to I
+2023-04-08T19:50:55.085Z >> [FTP Session 106 192.168.231.1 user] PASV
+2023-04-08T19:50:55.085Z << [FTP Session 106 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,3)
+2023-04-08T19:50:55.085Z >> [FTP Session 106 192.168.231.1 user] MLSD
+2023-04-08T19:50:55.085Z << [FTP Session 106 192.168.231.1 user] 150 About to start data transfer.
+2023-04-08T19:50:55.090Z << [FTP Session 106 192.168.231.1 user] 226 Operation successful
+2023-04-08T20:05:35.613Z << [FTP Session 107 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-08T20:05:37.225Z << [FTP Session 107 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-08T20:05:37.616Z >> [FTP Session 107 192.168.233.1] USER user
+2023-04-08T20:05:37.616Z << [FTP Session 107 192.168.233.1] 331 Please, specify the password.
+2023-04-08T20:05:37.901Z >> [FTP Session 107 192.168.233.1] PASS ****
+2023-04-08T20:05:38.738Z << [FTP Session 107 192.168.233.1] 530 Login incorrect.
+2023-04-08T20:05:43.196Z == [FTP Server] Session 107 ended gracefully.
+2023-04-10T07:39:47.706Z == [Administration Server] Administration client with ID 91 disconnected without error
+2023-04-10T07:39:47.715Z == [Administration Server] Session 91 ended gracefully.
+2023-04-10T07:39:55.371Z == [Administration Server] Administration client with ID 108 connected from 127.0.0.1:62317
+2023-04-10T07:40:17.884Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-10T07:40:17.884Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-10T07:40:17.996Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-10T07:40:17.996Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-10T07:40:17.996Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-10T07:40:39.924Z << [FTP Session 109 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T07:40:39.924Z << [FTP Session 109 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T07:40:39.927Z >> [FTP Session 109 192.168.231.1] AUTH TLS
+2023-04-10T07:40:39.935Z << [FTP Session 109 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T07:40:39.950Z >> [FTP Session 109 192.168.231.1] USER user
+2023-04-10T07:40:39.950Z << [FTP Session 109 192.168.231.1] 331 Please, specify the password.
+2023-04-10T07:40:39.953Z >> [FTP Session 109 192.168.231.1] PASS ****
+2023-04-10T07:40:40.037Z << [FTP Session 109 192.168.231.1 user] 230 Login successful.
+2023-04-10T07:40:40.053Z >> [FTP Session 109 192.168.231.1 user] PWD
+2023-04-10T07:40:40.053Z << [FTP Session 109 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T07:40:40.055Z >> [FTP Session 109 192.168.231.1 user] TYPE I
+2023-04-10T07:40:40.055Z << [FTP Session 109 192.168.231.1 user] 200 Type set to I
+2023-04-10T07:40:40.055Z >> [FTP Session 109 192.168.231.1 user] PASV
+2023-04-10T07:40:40.055Z << [FTP Session 109 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,0)
+2023-04-10T07:40:40.055Z >> [FTP Session 109 192.168.231.1 user] MLSD
+2023-04-10T07:40:40.062Z << [FTP Session 109 192.168.231.1 user] 150 Starting data transfer.
+2023-04-10T07:40:40.062Z << [FTP Session 109 192.168.231.1 user] 226 Operation successful
+2023-04-10T08:14:11.533Z << [FTP Session 110 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:14:11.533Z << [FTP Session 110 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:14:11.533Z >> [FTP Session 110 192.168.231.1] AUTH TLS
+2023-04-10T08:14:11.541Z << [FTP Session 110 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:14:11.561Z >> [FTP Session 110 192.168.231.1] USER user
+2023-04-10T08:14:11.561Z << [FTP Session 110 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:14:11.563Z >> [FTP Session 110 192.168.231.1] PASS ****
+2023-04-10T08:14:11.651Z << [FTP Session 110 192.168.231.1 user] 230 Login successful.
+2023-04-10T08:14:11.669Z >> [FTP Session 110 192.168.231.1 user] PWD
+2023-04-10T08:14:11.669Z << [FTP Session 110 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T08:14:11.669Z >> [FTP Session 110 192.168.231.1 user] TYPE I
+2023-04-10T08:14:11.669Z << [FTP Session 110 192.168.231.1 user] 200 Type set to I
+2023-04-10T08:14:11.669Z >> [FTP Session 110 192.168.231.1 user] PASV
+2023-04-10T08:14:11.669Z << [FTP Session 110 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,1)
+2023-04-10T08:14:11.678Z >> [FTP Session 110 192.168.231.1 user] MLSD
+2023-04-10T08:14:11.678Z << [FTP Session 110 192.168.231.1 user] 150 About to start data transfer.
+2023-04-10T08:14:11.682Z << [FTP Session 110 192.168.231.1 user] 226 Operation successful
+2023-04-10T08:14:28.029Z << [FTP Session 111 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:14:28.029Z << [FTP Session 111 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:14:28.029Z >> [FTP Session 111 192.168.231.1] AUTH TLS
+2023-04-10T08:14:28.035Z << [FTP Session 111 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:14:28.042Z >> [FTP Session 111 192.168.231.1] USER user
+2023-04-10T08:14:28.042Z << [FTP Session 111 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:14:28.042Z >> [FTP Session 111 192.168.231.1] PASS ****
+2023-04-10T08:14:28.166Z << [FTP Session 111 192.168.231.1 user] 230 Login successful.
+2023-04-10T08:14:28.182Z >> [FTP Session 111 192.168.231.1 user] PWD
+2023-04-10T08:14:28.182Z << [FTP Session 111 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T08:15:57.374Z << [FTP Session 112 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:15:57.374Z << [FTP Session 112 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:15:57.374Z >> [FTP Session 112 192.168.231.1] USER anonymous
+2023-04-10T08:15:57.374Z << [FTP Session 112 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:15:57.374Z >> [FTP Session 112 192.168.231.1] PASS ****
+2023-04-10T08:15:57.374Z << [FTP Session 112 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:15:57.383Z == [FTP Server] Session 112 ended gracefully.
+2023-04-10T08:15:57.384Z << [FTP Session 113 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:15:57.384Z << [FTP Session 113 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:15:57.384Z >> [FTP Session 113 192.168.231.1] USER user
+2023-04-10T08:15:57.384Z << [FTP Session 113 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:15:57.384Z >> [FTP Session 113 192.168.231.1] PASS ****
+2023-04-10T08:15:57.495Z << [FTP Session 113 192.168.231.1 user] 230 Login successful.
+2023-04-10T08:15:57.497Z >> [FTP Session 113 192.168.231.1 user] opts utf8 on
+2023-04-10T08:15:57.497Z << [FTP Session 113 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-10T08:15:57.497Z >> [FTP Session 113 192.168.231.1 user] syst
+2023-04-10T08:15:57.497Z << [FTP Session 113 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-10T08:15:57.497Z >> [FTP Session 113 192.168.231.1 user] site help
+2023-04-10T08:15:57.497Z << [FTP Session 113 192.168.231.1 user] 500 Wrong command.
+2023-04-10T08:15:57.499Z >> [FTP Session 113 192.168.231.1 user] PWD
+2023-04-10T08:15:57.499Z << [FTP Session 113 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T08:15:57.848Z << [FTP Session 114 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:15:57.848Z << [FTP Session 114 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:15:57.848Z >> [FTP Session 114 192.168.231.1] USER user
+2023-04-10T08:15:57.848Z << [FTP Session 114 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:15:57.848Z >> [FTP Session 114 192.168.231.1] PASS ****
+2023-04-10T08:15:57.965Z << [FTP Session 114 192.168.231.1 user] 230 Login successful.
+2023-04-10T08:15:57.965Z >> [FTP Session 114 192.168.231.1 user] opts utf8 on
+2023-04-10T08:15:57.965Z << [FTP Session 114 192.168.231.1 user] 202 UTF8 mode is always enabled. No need to send this command
+2023-04-10T08:15:57.965Z >> [FTP Session 114 192.168.231.1 user] syst
+2023-04-10T08:15:57.965Z << [FTP Session 114 192.168.231.1 user] 215 UNIX emulated by FileZilla.
+2023-04-10T08:15:57.965Z >> [FTP Session 114 192.168.231.1 user] site help
+2023-04-10T08:15:57.965Z << [FTP Session 114 192.168.231.1 user] 500 Wrong command.
+2023-04-10T08:15:57.965Z >> [FTP Session 114 192.168.231.1 user] PWD
+2023-04-10T08:15:57.965Z << [FTP Session 114 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T08:15:57.965Z >> [FTP Session 114 192.168.231.1 user] TYPE A
+2023-04-10T08:15:57.965Z << [FTP Session 114 192.168.231.1 user] 200 Type set to A
+2023-04-10T08:15:57.965Z >> [FTP Session 114 192.168.231.1 user] PASV
+2023-04-10T08:15:57.971Z << [FTP Session 114 192.168.231.1 user] 227 Entering Passive Mode (192,168,231,1,192,0)
+2023-04-10T08:15:57.972Z >> [FTP Session 114 192.168.231.1 user] LIST
+2023-04-10T08:15:57.972Z << [FTP Session 114 192.168.231.1 user] 150 Starting data transfer.
+2023-04-10T08:15:57.972Z << [FTP Session 114 192.168.231.1 user] 226 Operation successful
+2023-04-10T08:15:58.168Z == [FTP Server] Session 113 ended gracefully.
+2023-04-10T08:16:26.264Z << [FTP Session 115 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:26.264Z << [FTP Session 115 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:26.264Z >> [FTP Session 115 192.168.231.1] AUTH TLS
+2023-04-10T08:16:26.264Z << [FTP Session 115 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:26.280Z >> [FTP Session 115 192.168.231.1] USER user
+2023-04-10T08:16:26.280Z << [FTP Session 115 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:16:26.280Z >> [FTP Session 115 192.168.231.1] PASS ****
+2023-04-10T08:16:26.280Z << [FTP Session 115 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:16:26.280Z !! [FTP Session 115 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:16:26.280Z == [FTP Session 115 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:16:26.280Z !! [FTP Session 115 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:16:31.297Z << [FTP Session 116 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:31.297Z << [FTP Session 116 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:31.298Z << [FTP Session 117 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:31.298Z << [FTP Session 117 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:31.299Z >> [FTP Session 116 192.168.231.1] AUTH TLS
+2023-04-10T08:16:31.299Z << [FTP Session 116 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:31.299Z >> [FTP Session 117 192.168.231.1] AUTH TLS
+2023-04-10T08:16:31.299Z << [FTP Session 117 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:31.316Z >> [FTP Session 116 192.168.231.1] USER user
+2023-04-10T08:16:31.316Z << [FTP Session 116 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:16:31.316Z >> [FTP Session 116 192.168.231.1] PASS ****
+2023-04-10T08:16:31.316Z << [FTP Session 116 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:16:31.316Z !! [FTP Session 116 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:16:31.316Z == [FTP Session 116 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:16:31.316Z !! [FTP Session 116 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:16:31.326Z >> [FTP Session 117 192.168.231.1] USER user
+2023-04-10T08:16:31.326Z << [FTP Session 117 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:16:31.326Z >> [FTP Session 117 192.168.231.1] PASS ****
+2023-04-10T08:16:31.326Z << [FTP Session 117 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:16:31.329Z !! [FTP Session 117 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:16:31.330Z == [FTP Session 117 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:16:31.330Z !! [FTP Session 117 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:16:36.340Z << [FTP Session 118 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:36.340Z << [FTP Session 118 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:36.340Z << [FTP Session 119 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:36.340Z << [FTP Session 119 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:36.340Z >> [FTP Session 118 192.168.231.1] AUTH TLS
+2023-04-10T08:16:36.344Z << [FTP Session 118 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:36.344Z >> [FTP Session 119 192.168.231.1] AUTH TLS
+2023-04-10T08:16:36.345Z << [FTP Session 119 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:36.356Z >> [FTP Session 119 192.168.231.1] USER user
+2023-04-10T08:16:36.356Z << [FTP Session 119 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:16:36.356Z >> [FTP Session 119 192.168.231.1] PASS ****
+2023-04-10T08:16:36.356Z << [FTP Session 119 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:16:36.356Z !! [FTP Session 119 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:16:36.356Z == [FTP Session 119 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:16:36.356Z !! [FTP Session 119 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:16:36.365Z >> [FTP Session 118 192.168.231.1] USER user
+2023-04-10T08:16:38.829Z << [FTP Session 120 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:38.829Z << [FTP Session 120 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:38.829Z >> [FTP Session 120 192.168.231.1] AUTH TLS
+2023-04-10T08:16:38.834Z << [FTP Session 120 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:38.869Z >> [FTP Session 120 192.168.231.1] USER user
+2023-04-10T08:16:41.361Z << [FTP Session 118 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:16:41.361Z >> [FTP Session 118 192.168.231.1] PASS ****
+2023-04-10T08:16:41.361Z << [FTP Session 118 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:16:41.364Z !! [FTP Session 118 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:16:41.364Z == [FTP Session 118 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:16:41.366Z !! [FTP Session 118 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:16:46.367Z << [FTP Session 120 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:16:46.367Z >> [FTP Session 120 192.168.231.1] PASS ****
+2023-04-10T08:16:46.369Z << [FTP Session 120 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:16:46.369Z << [FTP Session 121 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:46.370Z << [FTP Session 121 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:46.370Z >> [FTP Session 121 192.168.231.1] AUTH TLS
+2023-04-10T08:16:46.372Z << [FTP Session 121 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:46.372Z !! [FTP Session 120 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:16:46.372Z == [FTP Session 120 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:16:46.372Z !! [FTP Session 120 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:16:46.399Z >> [FTP Session 121 192.168.231.1] USER user
+2023-04-10T08:16:46.415Z << [FTP Session 122 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:16:46.415Z << [FTP Session 122 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:16:46.415Z >> [FTP Session 122 192.168.231.1] AUTH TLS
+2023-04-10T08:16:46.415Z << [FTP Session 122 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:16:46.430Z >> [FTP Session 122 192.168.231.1] USER user
+2023-04-10T08:17:01.369Z << [FTP Session 121 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:01.369Z >> [FTP Session 121 192.168.231.1] PASS ****
+2023-04-10T08:17:01.372Z << [FTP Session 121 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:17:01.373Z !! [FTP Session 121 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:17:01.373Z == [FTP Session 121 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:17:01.374Z !! [FTP Session 121 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:17:01.469Z << [FTP Session 123 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:17:01.469Z << [FTP Session 123 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:17:01.470Z >> [FTP Session 123 192.168.231.1] AUTH TLS
+2023-04-10T08:17:01.471Z << [FTP Session 123 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:17:01.476Z >> [FTP Session 123 192.168.231.1] USER user
+2023-04-10T08:17:06.362Z << [FTP Session 122 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:06.362Z >> [FTP Session 122 192.168.231.1] PASS ****
+2023-04-10T08:17:06.362Z << [FTP Session 122 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:17:06.364Z !! [FTP Session 122 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:17:06.364Z == [FTP Session 122 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:17:06.364Z !! [FTP Session 122 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:17:06.377Z << [FTP Session 123 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:06.377Z >> [FTP Session 123 192.168.231.1] PASS ****
+2023-04-10T08:17:06.380Z << [FTP Session 123 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:17:06.381Z !! [FTP Session 123 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:17:06.381Z == [FTP Session 123 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:17:06.381Z !! [FTP Session 123 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:17:06.426Z << [FTP Session 124 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:17:06.426Z << [FTP Session 124 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:17:06.426Z >> [FTP Session 124 192.168.231.1] AUTH TLS
+2023-04-10T08:17:06.442Z << [FTP Session 124 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:17:06.447Z << [FTP Session 125 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:17:06.447Z << [FTP Session 125 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:17:06.447Z >> [FTP Session 125 192.168.231.1] AUTH TLS
+2023-04-10T08:17:06.455Z << [FTP Session 125 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:17:06.461Z >> [FTP Session 124 192.168.231.1] USER user
+2023-04-10T08:17:06.463Z >> [FTP Session 125 192.168.231.1] USER user
+2023-04-10T08:17:12.147Z << [FTP Session 126 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:17:12.147Z << [FTP Session 126 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:17:12.147Z >> [FTP Session 126 192.168.231.1] AUTH TLS
+2023-04-10T08:17:12.147Z << [FTP Session 126 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:17:12.176Z >> [FTP Session 126 192.168.231.1] USER user
+2023-04-10T08:17:21.376Z << [FTP Session 124 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:21.376Z >> [FTP Session 124 192.168.231.1] PASS ****
+2023-04-10T08:17:21.376Z << [FTP Session 124 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:17:21.376Z !! [FTP Session 124 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:17:21.376Z == [FTP Session 124 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:17:21.376Z !! [FTP Session 124 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:17:25.635Z << [FTP Session 127 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:17:25.635Z << [FTP Session 127 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:17:25.649Z >> [FTP Session 127 192.168.231.1] AUTH TLS
+2023-04-10T08:17:25.651Z << [FTP Session 127 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:17:25.666Z >> [FTP Session 127 192.168.231.1] USER user
+2023-04-10T08:17:26.373Z << [FTP Session 125 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:26.373Z >> [FTP Session 125 192.168.231.1] PASS ****
+2023-04-10T08:17:26.373Z << [FTP Session 125 192.168.231.1] 530 Login incorrect.
+2023-04-10T08:17:26.373Z !! [FTP Session 125 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:17:26.373Z == [FTP Session 125 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:17:26.373Z !! [FTP Session 125 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:17:26.421Z << [FTP Session 128 192.168.231.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:17:26.421Z << [FTP Session 128 192.168.231.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:17:26.421Z >> [FTP Session 128 192.168.231.1] AUTH TLS
+2023-04-10T08:17:26.421Z << [FTP Session 128 192.168.231.1] 234 Using authentication type TLS.
+2023-04-10T08:17:26.433Z >> [FTP Session 128 192.168.231.1] USER user
+2023-04-10T08:17:31.373Z << [FTP Session 126 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:31.373Z >> [FTP Session 126 192.168.231.1] PASS ****
+2023-04-10T08:17:31.531Z << [FTP Session 126 192.168.231.1 user] 230 Login successful.
+2023-04-10T08:17:31.546Z >> [FTP Session 126 192.168.231.1 user] PWD
+2023-04-10T08:17:31.546Z << [FTP Session 126 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T08:17:41.375Z << [FTP Session 127 192.168.231.1] 331 Please, specify the password.
+2023-04-10T08:17:41.375Z >> [FTP Session 127 192.168.231.1] PASS ****
+2023-04-10T08:17:41.501Z << [FTP Session 127 192.168.231.1 user] 230 Login successful.
+2023-04-10T08:17:41.503Z >> [FTP Session 127 192.168.231.1 user] PWD
+2023-04-10T08:17:41.503Z << [FTP Session 127 192.168.231.1 user] 257 "/" is current directory.
+2023-04-10T08:17:46.522Z !! [FTP Session 128 192.168.231.1] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+2023-04-10T08:17:46.522Z == [FTP Session 128 192.168.231.1] Client did not properly shut down TLS connection
+2023-04-10T08:17:46.522Z !! [FTP Session 128 192.168.231.1] Control channel closed with error from source 0. Reason: ECONNABORTED - Connection aborted.
+2023-04-10T08:17:57.005Z == Settings written to C:\ProgramData\filezilla-server\groups.xml.
+2023-04-10T08:17:57.005Z == Settings written to C:\ProgramData\filezilla-server\users.xml.
+2023-04-10T08:17:57.115Z == Settings written to C:\ProgramData\filezilla-server\settings.xml.
+2023-04-10T08:17:57.115Z == Settings written to C:\ProgramData\filezilla-server\disallowed_ips.xml.
+2023-04-10T08:17:57.115Z == Settings written to C:\ProgramData\filezilla-server\allowed_ips.xml.
+2023-04-10T08:18:35.939Z == [FTP Server] Session 114 ended gracefully.
+2023-04-10T08:19:20.356Z == [Administration Server] Administration client with ID 108 disconnected without error
+2023-04-10T08:19:20.356Z == [Administration Server] Session 108 ended gracefully.
+2023-04-10T08:20:33.096Z == [Administration Server] Administration client with ID 129 connected from 127.0.0.1:62992
+2023-04-10T08:21:27.494Z << [FTP Session 130 192.168.233.1] 220-FileZilla Server 1.6.7
+2023-04-10T08:21:27.494Z << [FTP Session 130 192.168.233.1] 220 Please visit https://filezilla-project.org/
+2023-04-10T08:21:27.494Z >> [FTP Session 130 192.168.233.1] AUTH TLS
+2023-04-10T08:21:27.508Z << [FTP Session 130 192.168.233.1] 234 Using authentication type TLS.
+2023-04-10T08:21:30.079Z >> [FTP Session 130 192.168.233.1] USER user
+2023-04-10T08:21:30.081Z << [FTP Session 130 192.168.233.1] 331 Please, specify the password.
+2023-04-10T08:21:30.082Z >> [FTP Session 130 192.168.233.1] PASS ****
+2023-04-10T08:21:30.214Z << [FTP Session 130 192.168.233.1 user] 230 Login successful.
+2023-04-10T08:21:30.214Z >> [FTP Session 130 192.168.233.1 user] FEAT
+2023-04-10T08:21:30.214Z << [FTP Session 130 192.168.233.1 user] 211-Features:
+2023-04-10T08:21:30.214Z << [FTP Session 130 192.168.233.1 user] 211 End
+2023-04-10T08:21:30.232Z >> [FTP Session 130 192.168.233.1 user] PWD
+2023-04-10T08:21:30.232Z << [FTP Session 130 192.168.233.1 user] 257 "/" is current directory.
+2023-04-10T08:21:30.232Z >> [FTP Session 130 192.168.233.1 user] TYPE I
+2023-04-10T08:21:30.232Z << [FTP Session 130 192.168.233.1 user] 200 Type set to I
+2023-04-10T08:21:30.232Z >> [FTP Session 130 192.168.233.1 user] PASV
+2023-04-10T08:21:30.234Z << [FTP Session 130 192.168.233.1 user] 227 Entering Passive Mode (192,168,233,1,192,0)
+2023-04-10T08:21:30.234Z >> [FTP Session 130 192.168.233.1 user] MLSD
+2023-04-10T08:21:30.234Z << [FTP Session 130 192.168.233.1 user] 150 About to start data transfer.
+2023-04-10T08:21:30.238Z << [FTP Session 130 192.168.233.1 user] 226 Operation successful
